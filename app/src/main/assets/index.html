@@ -120,7 +120,7 @@ let cat='general',qs=[],idx=0,correct=0,answered=false,roundXp=0;
 const $=id=>document.getElementById(id);
 function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');}
 function save(){localStorage.qvxXp=state.xp;localStorage.qvxStreak=state.streak;$('xp').textContent=state.xp;$('streak').textContent=state.streak}
-function start(c){cat=c;const files={general:"cultura_general",kids:"kids",games:"games",football:"football",science:"science",animals:"animals"};const x=new XMLHttpRequest();x.open("GET","preguntas/"+files[c]+".json");x.onload=function(){if(x.status===200||x.status===0){try{qs=JSON.parse(x.responseText).sort(()=>Math.random()-.5)}catch(e){qs=[...data[c]].sort(()=>Math.random()-.5)}}else{qs=[...data[c]].sort(()=>Math.random()-.5)};idx=0;correct=0;roundXp=0;show("game");renderQ()};x.onerror=function(){qs=[...data[c]].sort(()=>Math.random()-.5);idx=0;correct=0;roundXp=0;show("game");renderQ()};x.send()}
+function start(c){cat=c;const files={general:"cultura_general",kids:"kids",games:"games",football:"football",science:"science",animals:"animals"};const x=new XMLHttpRequest();x.open("GET","preguntas/"+files[c]+".json");x.onload=function(){if(x.status===200||x.status===0){try{qs=JSON.parse(x.responseText).sort(()=>Math.random()-.5).slice(0,10)}catch(e){qs=[...data[c]].sort(()=>Math.random()-.5).slice(0,10)}}else{qs=[...data[c]].sort(()=>Math.random()-.5).slice(0,10)};idx=0;correct=0;roundXp=0;show("game");renderQ()};x.onerror=function(){qs=[...data[c]].sort(()=>Math.random()-.5).slice(0,10);idx=0;correct=0;roundXp=0;show("game");renderQ()};x.send()}
 function daily(){start(['general','games','science','animals'][new Date().getDate()%4])}
 function renderQ(){
  answered=false;$('feedback').textContent='';
@@ -133,7 +133,7 @@ function renderQ(){
 function answer(i,btn){
  if(answered)return;answered=true;let item=qs[idx],ok=i===item[2];
  document.querySelectorAll('.answer').forEach((b,j)=>{if(j===item[2])b.classList.add('correct');if(j===i&&!ok)b.classList.add('wrong')});
- if(ok){correct++;const xp={facil:10,medio:20,dificil:30,experto:50}[item[3]||"facil"];state.xp+=xp;$('feedback').textContent='✅ ¡Correcto! +'+xp+' XP'}else $('feedback').textContent='❌ ¡Sigue intentando!';
+ if(ok){correct++;const xp={facil:10,medio:20,dificil:30,experto:50}[item[3]||"facil"];state.xp+=xp;roundXp+=xp;$('feedback').textContent='✅ ¡Correcto! +'+xp+' XP'}else $('feedback').textContent='❌ ¡Sigue intentando!';
  save();setTimeout(()=>{idx++;if(idx<qs.length)renderQ();else finish()},650)
 }
 function finish(){state.streak++;save();$('score').textContent=correct+'/10';$('resultTitle').textContent=correct>=8?'🔥 ¡Excelente!':correct>=5?'👏 ¡Buen trabajo!':'💪 ¡Sigue practicando!';$('resultSub').textContent='Ganaste '+roundXp+' XP en esta ronda.';$('finalXp').textContent=state.xp;$('finalLevel').textContent=Math.max(1,Math.floor(state.xp/100)+1);show('result')}
