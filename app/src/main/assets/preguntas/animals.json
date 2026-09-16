@@ -7,7 +7,8 @@
       "Jirafa",
       "Oso"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Qué animal tiene cuello muy largo?",
@@ -17,7 +18,8 @@
       "Pingüino",
       "Zorro"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Cuál es un mamífero?",
@@ -27,7 +29,8 @@
       "Pulpo",
       "Cocodrilo"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Qué animal produce lana?",
@@ -37,7 +40,8 @@
       "Serpiente",
       "Delfín"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Cuál es conocido por cambiar de color?",
@@ -47,7 +51,8 @@
       "Elefante",
       "Pingüino"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿Qué animal es un felino?",
@@ -57,7 +62,8 @@
       "Cabra",
       "Delfín"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿Cuál puede volar?",
@@ -67,7 +73,8 @@
       "Tigre",
       "Ballena"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿Qué animal vive principalmente en el agua?",
@@ -77,7 +84,8 @@
       "Gallina",
       "Gato"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "¿Cuál pone huevos?",
@@ -87,7 +95,8 @@
       "Vaca",
       "Gato"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "¿Qué animal tiene caparazón?",
@@ -97,6 +106,7 @@
       "Jirafa",
       "Mono"
     ],
-    0
+    0,
+    "experto"
   ]
 ]

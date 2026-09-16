@@ -7,7 +7,8 @@
       "11",
       "12"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿Qué tarjeta significa expulsión?",
@@ -17,7 +18,8 @@
       "Azul",
       "Verde"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Cuánto dura normalmente un partido sin tiempo añadido?",
@@ -27,7 +29,8 @@
       "90 min",
       "100 min"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿Qué posición suele proteger la portería?",
@@ -37,7 +40,8 @@
       "Mediocampista",
       "Árbitro"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué parte del cuerpo no puede usar normalmente un jugador de campo para tocar el balón?",
@@ -47,7 +51,8 @@
       "Mano",
       "Pecho"
     ],
-    2
+    2,
+    "medio"
   ],
   [
     "¿Qué se cobra cuando el balón sale por la línea de banda?",
@@ -57,7 +62,8 @@
       "Córner",
       "Tiro libre"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿Qué significa 'gol'?",
@@ -67,7 +73,8 @@
       "Saque",
       "Tarjeta"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué objeto usa el árbitro para señalar el final?",
@@ -77,7 +84,8 @@
       "Bandera",
       "Casco"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "¿Qué línea marca el centro del campo?",
@@ -87,7 +95,8 @@
       "Área pequeña",
       "Banda"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué competición reúne selecciones nacionales?",
@@ -97,6 +106,7 @@
       "Copa del barrio",
       "Amistoso escolar"
     ],
-    0
+    0,
+    "experto"
   ]
 ]

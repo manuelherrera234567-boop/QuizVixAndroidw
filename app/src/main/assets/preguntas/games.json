@@ -7,7 +7,8 @@
       "Tetris",
       "Among Us"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "🎮 Imagen simulada: 🚗⚽ ¿Qué juego representa?",
@@ -17,7 +18,8 @@
       "Roblox",
       "Tetris"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "🎮 Imagen simulada: 🧑‍🚀🔴🟢 ¿Qué juego representa?",
@@ -27,7 +29,8 @@
       "FIFA",
       "Mario Kart"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "🎮 Imagen simulada: 🧱🏝️⛏️ ¿Qué juego representa?",
@@ -37,7 +40,8 @@
       "FIFA",
       "Fortnite"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "🎮 Imagen simulada: ⚽🏟️ ¿Qué tipo de juego representa?",
@@ -47,7 +51,8 @@
       "Puzzle",
       "Simulación espacial"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "🎮 ¿Cuál es un juego de construcción y creación?",
@@ -57,7 +62,8 @@
       "FIFA",
       "Among Us"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "🎮 ¿Cuál es principalmente un juego de carreras?",
@@ -67,7 +73,8 @@
       "FIFA",
       "Among Us"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "🎮 ¿Cuál es un juego de bloques y rompecabezas?",
@@ -77,7 +84,8 @@
       "Fortnite",
       "Roblox"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "🎮 ¿Cuál permite crear experiencias dentro de una plataforma?",
@@ -87,7 +95,8 @@
       "FIFA",
       "Rocket League"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "🎮 ¿Cuál combina autos y fútbol?",
@@ -97,6 +106,7 @@
       "Among Us",
       "Tetris"
     ],
-    0
+    0,
+    "experto"
   ]
 ]

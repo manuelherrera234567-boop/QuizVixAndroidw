@@ -7,7 +7,8 @@
       "Negro",
       "Rosado"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Cuántas patas tiene un perro?",
@@ -17,7 +18,8 @@
       "6",
       "8"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué animal dice 'miau'?",
@@ -27,7 +29,8 @@
       "Vaca",
       "Pato"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Cuánto es 2 + 3?",
@@ -37,7 +40,8 @@
       "6",
       "7"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué usamos para ver?",
@@ -47,7 +51,8 @@
       "Ojos",
       "Pies"
     ],
-    2
+    2,
+    "medio"
   ],
   [
     "¿Cuál vive en el agua?",
@@ -57,7 +62,8 @@
       "Caballo",
       "Gallina"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿Qué forma tiene una pelota?",
@@ -67,7 +73,8 @@
       "Triangular",
       "Plana"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué viene después del lunes?",
@@ -77,7 +84,8 @@
       "Viernes",
       "Sábado"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Cuántos dedos hay en una mano?",
@@ -87,7 +95,8 @@
       "6",
       "10"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué fruta es amarilla y alargada?",
@@ -97,6 +106,7 @@
       "Uva",
       "Sandía"
     ],
-    0
+    0,
+    "experto"
   ]
 ]

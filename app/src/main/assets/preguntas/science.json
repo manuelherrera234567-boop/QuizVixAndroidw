@@ -7,7 +7,8 @@
       "Hígado",
       "Cerebro"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué fuerza nos mantiene sobre la Tierra?",
@@ -17,7 +18,8 @@
       "Electricidad",
       "Fricción"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué planeta es conocido como el planeta rojo?",
@@ -27,7 +29,8 @@
       "Saturno",
       "Neptuno"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué necesitan las plantas para hacer fotosíntesis?",
@@ -37,7 +40,8 @@
       "Plástico",
       "Sal"
     ],
-    0
+    0,
+    "medio"
   ],
   [
     "¿En qué estado está el hielo?",
@@ -47,7 +51,8 @@
       "Gas",
       "Plasma"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué estrella está más cerca de la Tierra?",
@@ -57,7 +62,8 @@
       "Polaris",
       "Vega"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué órgano usamos principalmente para pensar?",
@@ -67,7 +73,8 @@
       "Pulmón",
       "Estómago"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué gas necesitan los humanos para respirar?",
@@ -77,7 +84,8 @@
       "Metano",
       "Neón"
     ],
-    0
+    0,
+    "dificil"
   ],
   [
     "¿Qué instrumento mide la temperatura?",
@@ -87,7 +95,8 @@
       "Brújula",
       "Balanza"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Cuál es el satélite natural de la Tierra?",
@@ -97,6 +106,7 @@
       "El Sol",
       "Venus"
     ],
-    1
+    1,
+    "experto"
   ]
 ]

@@ -7,7 +7,8 @@
       "Júpiter",
       "Neptuno"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿En qué año llegó el ser humano a la Luna por primera vez?",
@@ -17,7 +18,8 @@
       "1972",
       "1975"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Cuál es el río más largo de Sudamérica?",
@@ -27,7 +29,8 @@
       "Paraná",
       "Magdalena"
     ],
-    0
+    0,
+    "facil"
   ],
   [
     "¿Qué elemento químico tiene el símbolo Au?",
@@ -37,7 +40,8 @@
       "Oro",
       "Cobre"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿Cuál es la capital de Australia?",
@@ -47,7 +51,8 @@
       "Canberra",
       "Perth"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿Cuántos huesos tiene aproximadamente un adulto?",
@@ -57,7 +62,8 @@
       "306",
       "406"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Quién escribió Don Quijote de la Mancha?",
@@ -67,7 +73,8 @@
       "Pablo Neruda",
       "Jorge Luis Borges"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Cuál es el océano más profundo?",
@@ -77,7 +84,8 @@
       "Pacífico",
       "Ártico"
     ],
-    2
+    2,
+    "facil"
   ],
   [
     "¿Qué órgano bombea la sangre por todo el cuerpo?",
@@ -87,7 +95,8 @@
       "Cerebro",
       "Corazón"
     ],
-    3
+    3,
+    "facil"
   ],
   [
     "¿Cuál es el continente con mayor superficie?",
@@ -97,7 +106,8 @@
       "Europa",
       "América"
     ],
-    1
+    1,
+    "facil"
   ],
   [
     "¿Qué país tiene forma aproximada de bota?",
@@ -107,7 +117,8 @@
       "Grecia",
       "Portugal"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Cuál es la unidad básica de la vida?",
@@ -117,7 +128,8 @@
       "Tejido",
       "Órgano"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué planeta es conocido como el planeta rojo?",
@@ -127,7 +139,8 @@
       "Mercurio",
       "Urano"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Cuál es el idioma con más hablantes nativos del mundo?",
@@ -137,7 +150,8 @@
       "Chino mandarín",
       "Francés"
     ],
-    2
+    2,
+    "medio"
   ],
   [
     "¿Qué instrumento se utiliza para medir la presión atmosférica?",
@@ -147,7 +161,8 @@
       "Higrómetro",
       "Anemómetro"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Cuál es el metal más abundante en la corteza terrestre?",
@@ -157,7 +172,8 @@
       "Cobre",
       "Oro"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Qué científico formuló las leyes del movimiento y la gravitación universal?",
@@ -167,7 +183,8 @@
       "Galileo Galilei",
       "Nikola Tesla"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Cuál es la capital de Japón?",
@@ -177,7 +194,8 @@
       "Tokio",
       "Hiroshima"
     ],
-    2
+    2,
+    "medio"
   ],
   [
     "¿Qué gas es más abundante en la atmósfera terrestre?",
@@ -187,7 +205,8 @@
       "Dióxido de carbono",
       "Hidrógeno"
     ],
-    1
+    1,
+    "medio"
   ],
   [
     "¿Cuántos lados tiene un dodecágono?",
@@ -197,7 +216,8 @@
       "12",
       "14"
     ],
-    2
+    2,
+    "medio"
   ],
   [
     "¿Qué civilización construyó Machu Picchu?",
@@ -207,7 +227,8 @@
       "Inca",
       "Romana"
     ],
-    2
+    2,
+    "dificil"
   ],
   [
     "¿Cuál es la montaña más alta sobre el nivel del mar?",
@@ -217,7 +238,8 @@
       "Aconcagua",
       "Mont Blanc"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué país regaló la Estatua de la Libertad a Estados Unidos?",
@@ -227,7 +249,8 @@
       "España",
       "Italia"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué científico desarrolló la teoría de la relatividad?",
@@ -237,7 +260,8 @@
       "Stephen Hawking",
       "Marie Curie"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Cuál es el desierto cálido más grande del mundo?",
@@ -247,7 +271,8 @@
       "Atacama",
       "Kalahari"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Qué vitamina produce principalmente el cuerpo al exponerse al Sol?",
@@ -257,7 +282,8 @@
       "Vitamina C",
       "Vitamina D"
     ],
-    3
+    3,
+    "dificil"
   ],
   [
     "¿Cuál es el número primo más pequeño?",
@@ -267,7 +293,8 @@
       "2",
       "3"
     ],
-    2
+    2,
+    "dificil"
   ],
   [
     "¿Qué país posee la mayor cantidad de islas del mundo?",
@@ -277,7 +304,8 @@
       "Japón",
       "Filipinas"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Cuál es la capital de Canadá?",
@@ -287,7 +315,8 @@
       "Montreal",
       "Ottawa"
     ],
-    3
+    3,
+    "dificil"
   ],
   [
     "¿Qué parte de la célula contiene la mayor parte del material genético?",
@@ -297,7 +326,8 @@
       "Membrana",
       "Citoplasma"
     ],
-    1
+    1,
+    "dificil"
   ],
   [
     "¿Cuál es el único mamífero capaz de volar de forma sostenida?",
@@ -307,7 +337,8 @@
       "Pingüino",
       "Avestruz"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Qué planeta tiene los anillos más visibles y famosos?",
@@ -317,7 +348,8 @@
       "Urano",
       "Neptuno"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Cuál fue la antigua ciudad sepultada por la erupción del Vesubio en el año 79?",
@@ -327,7 +359,8 @@
       "Esparta",
       "Cartago"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Qué filósofo fue maestro de Alejandro Magno?",
@@ -337,7 +370,8 @@
       "Aristóteles",
       "Pitágoras"
     ],
-    2
+    2,
+    "experto"
   ],
   [
     "¿Cuál es la moneda oficial de Japón?",
@@ -347,7 +381,8 @@
       "Yen",
       "Rupia"
     ],
-    2
+    2,
+    "experto"
   ],
   [
     "¿Qué país tiene como capital a Reikiavik?",
@@ -357,7 +392,8 @@
       "Finlandia",
       "Dinamarca"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Qué fenómeno explica que la Luna parezca cambiar de forma durante el mes?",
@@ -367,7 +403,8 @@
       "Eclipses permanentes",
       "Gravedad terrestre"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Cuál es el número atómico del carbono?",
@@ -377,7 +414,8 @@
       "8",
       "12"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Qué océano separa principalmente América de Europa y África?",
@@ -387,7 +425,8 @@
       "Índico",
       "Antártico"
     ],
-    1
+    1,
+    "experto"
   ],
   [
     "¿Cuál de estos países no pertenece a Sudamérica?",
@@ -397,6 +436,7 @@
       "México",
       "Perú"
     ],
-    2
+    2,
+    "experto"
   ]
 ]
