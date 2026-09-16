@@ -25,7 +25,7 @@ button{font:inherit;cursor:pointer}.primary{width:100%;border:0;border-radius:17
 .feedback{min-height:25px;margin-top:12px;font-weight:800}.hidden{display:none!important}
 .result{text-align:center;background:#171b32;border:1px solid #2c3359;border-radius:24px;padding:24px}.big{font-size:54px;font-weight:900}.muted{color:#aeb5d7}
 .list{display:grid;gap:10px;margin-top:15px}.row{display:flex;justify-content:space-between;background:#171b32;border:1px solid #2c3359;border-radius:15px;padding:14px}
-</style>
+.difficulty{display:inline-block;font-size:13px;font-weight:800;letter-spacing:1px;padding:6px 10px;border-radius:999px;background:#262b4d;color:#8b7cff;margin-bottom:10px}</style>
 </head>
 <body>
 <div class="app">
@@ -127,7 +127,7 @@ function renderQ(){
  const item=qs[idx], level=Math.min(10,Math.floor(idx/2)+1), difficulty=item[3]||"facil";
  $('levelText').textContent='Nivel '+level;$('count').textContent=(idx+1)+'/10';$('bar').style.width=((idx)/9*100)+'%';
  $('qtype').textContent=cat==='games'?'Desafío visual':'Pregunta';
- $('q').textContent=item[0];$('answers').innerHTML='';
+ $('q').innerHTML='<span class="difficulty">'+difficulty.toUpperCase()+'</span><br>'+item[0];$('answers').innerHTML='';
  item[1].forEach((a,i)=>{let b=document.createElement('button');b.className='answer';b.textContent=a;b.onclick=()=>answer(i,b);$('answers').appendChild(b)})
 }
 function answer(i,btn){
