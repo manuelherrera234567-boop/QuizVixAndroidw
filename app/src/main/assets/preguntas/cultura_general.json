@@ -438,5 +438,665 @@
     ],
     2,
     "experto"
+  ],
+  [
+    "¿Cuál es el río más largo de Sudamérica?",
+    [
+      "Amazonas",
+      "Orinoco",
+      "Paraná",
+      "Magdalena"
+    ],
+    0,
+    "medio"
+  ],
+  [
+    "¿En qué continente se encuentra Egipto?",
+    [
+      "Asia",
+      "África",
+      "Europa",
+      "Oceanía"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuál es el idioma oficial de Brasil?",
+    [
+      "Español",
+      "Portugués",
+      "Francés",
+      "Italiano"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Qué instrumento se utiliza para medir la temperatura?",
+    [
+      "Barómetro",
+      "Termómetro",
+      "Higrómetro",
+      "Anemómetro"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuál es el planeta conocido como el planeta rojo?",
+    [
+      "Venus",
+      "Júpiter",
+      "Marte",
+      "Mercurio"
+    ],
+    2,
+    "medio"
+  ],
+  [
+    "¿Qué país tiene forma aproximada de bota en los mapas?",
+    [
+      "Grecia",
+      "Italia",
+      "Chile",
+      "Portugal"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuál es el órgano principal del sistema respiratorio?",
+    [
+      "Corazón",
+      "Pulmón",
+      "Hígado",
+      "Riñón"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuántos lados tiene un hexágono?",
+    [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuál es la capital de Canadá?",
+    [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montreal"
+    ],
+    2,
+    "medio"
+  ],
+  [
+    "¿Quién escribió 'Romeo y Julieta'?",
+    [
+      "William Shakespeare",
+      "Charles Dickens",
+      "Miguel de Cervantes",
+      "Victor Hugo"
+    ],
+    0,
+    "medio"
+  ],
+  [
+    "¿Qué gas necesitan principalmente las plantas para realizar la fotosíntesis?",
+    [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Helio"
+    ],
+    2,
+    "medio"
+  ],
+  [
+    "¿Cuál es el océano que separa América de Europa y África?",
+    [
+      "Pacífico",
+      "Índico",
+      "Atlántico",
+      "Ártico"
+    ],
+    2,
+    "medio"
+  ],
+  [
+    "¿Qué país es conocido por tener la ciudad de Marrakech?",
+    [
+      "Marruecos",
+      "Egipto",
+      "Turquía",
+      "India"
+    ],
+    0,
+    "medio"
+  ],
+  [
+    "¿Cuál es la moneda oficial del Reino Unido?",
+    [
+      "Euro",
+      "Libra esterlina",
+      "Franco",
+      "Dólar"
+    ],
+    1,
+    "medio"
+  ],
+  [
+    "¿Cuántos minutos tiene una hora y media?",
+    [
+      "60",
+      "75",
+      "90",
+      "120"
+    ],
+    2,
+    "medio"
+  ],
+  [
+    "¿Cuál es el elemento químico cuyo símbolo es W?",
+    [
+      "Wolframio",
+      "Estaño",
+      "Tungsteno líquido",
+      "Bismuto"
+    ],
+    0,
+    "dificil"
+  ],
+  [
+    "¿Qué civilización construyó Machu Picchu?",
+    [
+      "Maya",
+      "Azteca",
+      "Inca",
+      "Olmeca"
+    ],
+    2,
+    "dificil"
+  ],
+  [
+    "¿Cuál es el lago más grande de América del Sur por superficie?",
+    [
+      "Titicaca",
+      "Maracaibo",
+      "Poopó",
+      "General Carrera"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Qué científico formuló las tres leyes del movimiento?",
+    [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Michael Faraday"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Cuál es la capital de Mongolia?",
+    [
+      "Taskent",
+      "Ulán Bator",
+      "Astaná",
+      "Biskek"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Qué metal tiene el símbolo químico Ag?",
+    [
+      "Oro",
+      "Plata",
+      "Argón",
+      "Aluminio"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿En qué año terminó la Segunda Guerra Mundial?",
+    [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    2,
+    "dificil"
+  ],
+  [
+    "¿Cuál es la unidad básica de la corriente eléctrica en el Sistema Internacional?",
+    [
+      "Voltio",
+      "Ohmio",
+      "Amperio",
+      "Vatio"
+    ],
+    2,
+    "dificil"
+  ],
+  [
+    "¿Qué país posee la isla de Tasmania?",
+    [
+      "Nueva Zelanda",
+      "Australia",
+      "Indonesia",
+      "Papúa Nueva Guinea"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Cuál es el número primo inmediatamente posterior a 47?",
+    [
+      "48",
+      "49",
+      "51",
+      "53"
+    ],
+    3,
+    "dificil"
+  ],
+  [
+    "¿Qué capa de la atmósfera contiene la mayor parte de la capa de ozono?",
+    [
+      "Troposfera",
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Cuál es la capital de Eslovenia?",
+    [
+      "Liubliana",
+      "Zagreb",
+      "Bratislava",
+      "Sarajevo"
+    ],
+    0,
+    "dificil"
+  ],
+  [
+    "¿Qué pintor creó la obra 'Las meninas'?",
+    [
+      "Francisco de Goya",
+      "Diego Velázquez",
+      "El Greco",
+      "Murillo"
+    ],
+    1,
+    "dificil"
+  ],
+  [
+    "¿Qué continente tiene más países soberanos?",
+    [
+      "Asia",
+      "Europa",
+      "África",
+      "América"
+    ],
+    2,
+    "dificil"
+  ],
+  [
+    "¿Cuál es el número atómico del oxígeno?",
+    [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    2,
+    "dificil"
+  ],
+  [
+    "¿Cuál es la capital de Bután?",
+    [
+      "Katmandú",
+      "Daca",
+      "Timbu",
+      "Vientián"
+    ],
+    2,
+    "experto"
+  ],
+  [
+    "¿Qué filósofo escribió 'La República'?",
+    [
+      "Aristóteles",
+      "Platón",
+      "Sócrates",
+      "Epicuro"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Cuál es el elemento químico de número atómico 74?",
+    [
+      "Tantalio",
+      "Wolframio",
+      "Renio",
+      "Osmio"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Qué tratado puso fin oficialmente a la Primera Guerra Mundial entre Alemania y las potencias aliadas?",
+    [
+      "Tratado de Utrecht",
+      "Tratado de Versalles",
+      "Tratado de Tordesillas",
+      "Tratado de París de 1763"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Cuál es la unidad del Sistema Internacional para la capacitancia eléctrica?",
+    [
+      "Henrio",
+      "Faradio",
+      "Tesla",
+      "Weber"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Qué astrónomo formuló las leyes del movimiento planetario a partir de observaciones de Tycho Brahe?",
+    [
+      "Nicolás Copérnico",
+      "Johannes Kepler",
+      "Edwin Hubble",
+      "Tycho Brahe"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Cuál es la capital de Kirguistán?",
+    [
+      "Biskek",
+      "Dusambé",
+      "Asjabad",
+      "Ereván"
+    ],
+    0,
+    "experto"
+  ],
+  [
+    "¿Qué número representa el prefijo SI 'nano'?",
+    [
+      "10⁻⁶",
+      "10⁻⁹",
+      "10⁻¹²",
+      "10⁹"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Qué compositor escribió la obra 'La consagración de la primavera'?",
+    [
+      "Igor Stravinsky",
+      "Claude Debussy",
+      "Gustav Mahler",
+      "Maurice Ravel"
+    ],
+    0,
+    "experto"
+  ],
+  [
+    "¿Cuál es la capital de Azerbaiyán?",
+    [
+      "Bakú",
+      "Tiflis",
+      "Ereván",
+      "Minsk"
+    ],
+    0,
+    "experto"
+  ],
+  [
+    "¿Qué matemático dio nombre al teorema que relaciona los lados de un triángulo rectángulo?",
+    [
+      "Euclides",
+      "Pitágoras",
+      "Arquímedes",
+      "Fermat"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Cuál es el nombre de la galaxia en la que se encuentra el sistema solar?",
+    [
+      "Andrómeda",
+      "Vía Láctea",
+      "Triángulo",
+      "Sombrero"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Qué rama de las matemáticas estudia las propiedades de los números enteros?",
+    [
+      "Topología",
+      "Teoría de números",
+      "Trigonometría",
+      "Geometría diferencial"
+    ],
+    1,
+    "experto"
+  ],
+  [
+    "¿Cuál es el punto de ebullición del agua pura a nivel del mar, aproximadamente?",
+    [
+      "50 °C",
+      "75 °C",
+      "100 °C",
+      "125 °C"
+    ],
+    2,
+    "experto"
+  ],
+  [
+    "¿Qué país fue conocido históricamente como Persia?",
+    [
+      "Irán",
+      "Irak",
+      "Siria",
+      "Jordania"
+    ],
+    0,
+    "experto"
+  ],
+  [
+    "¿Cuántos días tiene una semana?",
+    [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    2,
+    "facil"
+  ],
+  [
+    "¿Cuál es el color que resulta de mezclar azul y amarillo?",
+    [
+      "Rojo",
+      "Verde",
+      "Morado",
+      "Naranja"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Cuántas patas tiene una araña?",
+    [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Cuál es el satélite natural de la Tierra?",
+    [
+      "El Sol",
+      "La Luna",
+      "Marte",
+      "Venus"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Qué animal es conocido por decir 'miau'?",
+    [
+      "Perro",
+      "Gato",
+      "Caballo",
+      "Vaca"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Cuántos meses tiene un año?",
+    [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    2,
+    "facil"
+  ],
+  [
+    "¿Cuál es el planeta más cercano al Sol?",
+    [
+      "Venus",
+      "Tierra",
+      "Mercurio",
+      "Marte"
+    ],
+    2,
+    "facil"
+  ],
+  [
+    "¿Qué forma tiene una pelota de fútbol tradicional?",
+    [
+      "Cubo",
+      "Esfera",
+      "Pirámide",
+      "Cilindro"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Cuántas horas tiene un día completo?",
+    [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    2,
+    "facil"
+  ],
+  [
+    "¿Cuál de estos es un continente?",
+    [
+      "Amazonas",
+      "África",
+      "Sahara",
+      "Pacífico"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Qué animal produce leche que comúnmente consumen las personas?",
+    [
+      "Vaca",
+      "Tiburón",
+      "Águila",
+      "Serpiente"
+    ],
+    0,
+    "facil"
+  ],
+  [
+    "¿Cuál es el resultado de 5 + 5?",
+    [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    2,
+    "facil"
+  ],
+  [
+    "¿Qué estrella está en el centro de nuestro sistema planetario?",
+    [
+      "Sirio",
+      "El Sol",
+      "Polaris",
+      "Vega"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Cuál de estos objetos sirve para escribir con tinta?",
+    [
+      "Cuchara",
+      "Bolígrafo",
+      "Plato",
+      "Zapato"
+    ],
+    1,
+    "facil"
+  ],
+  [
+    "¿Qué estación del año suele venir después del invierno?",
+    [
+      "Otoño",
+      "Primavera",
+      "Verano",
+      "Invierno"
+    ],
+    1,
+    "facil"
   ]
 ]
