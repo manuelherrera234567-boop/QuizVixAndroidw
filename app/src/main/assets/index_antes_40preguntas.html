@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>QuizVix</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0d1020;color:#fff}
+.app{max-width:520px;margin:auto;min-height:100vh;padding:18px 16px 30px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.logo{font-size:28px;font-weight:900;letter-spacing:.5px}.logo span{color:#8b7cff}
+.stats{display:flex;gap:8px;font-size:13px}.pill{background:#191e38;padding:8px 10px;border-radius:14px}
+.screen{display:none}.screen.active{display:block}
+.hero{background:linear-gradient(135deg,#29245d,#171a35);border:1px solid #343b70;border-radius:24px;padding:22px;margin-bottom:16px}
+h1{font-size:30px;margin:0 0 7px}.sub{color:#b9bfdc;margin:0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.cat{border:1px solid #2c3359;background:#171b32;color:white;border-radius:18px;padding:16px;text-align:left;min-height:100px;font-size:16px;font-weight:750}
+.cat small{display:block;color:#9299bd;margin-top:6px;font-weight:500}
+button{font:inherit;cursor:pointer}.primary{width:100%;border:0;border-radius:17px;padding:15px;background:#7568ff;color:#fff;font-weight:850;margin-top:14px}
+.back{background:none;border:0;color:#aeb5d7;padding:0 0 14px}
+.levelbar{display:flex;justify-content:space-between;color:#aeb5d7;font-size:13px;margin-bottom:8px}
+.progress{height:9px;background:#202643;border-radius:10px;overflow:hidden}.progress>i{display:block;height:100%;background:#7568ff;width:0}
+.question{background:#171b32;border:1px solid #2c3359;border-radius:22px;padding:20px;margin-top:15px}
+.qtype{font-size:12px;color:#8f97bd;text-transform:uppercase;font-weight:800}.q{font-size:23px;font-weight:850;line-height:1.2;margin:10px 0 16px}
+.answers{display:grid;gap:10px}.answer{background:#202643;border:1px solid #343c66;color:#fff;padding:14px;border-radius:15px;text-align:left;font-weight:700}.answer.correct{background:#194f3b;border-color:#45d39a}.answer.wrong{background:#5a2630;border-color:#ff7181}
+.feedback{min-height:25px;margin-top:12px;font-weight:800}.hidden{display:none!important}
+.result{text-align:center;background:#171b32;border:1px solid #2c3359;border-radius:24px;padding:24px}.big{font-size:54px;font-weight:900}.muted{color:#aeb5d7}
+.list{display:grid;gap:10px;margin-top:15px}.row{display:flex;justify-content:space-between;background:#171b32;border:1px solid #2c3359;border-radius:15px;padding:14px}
+</style>
+</head>
+<body>
+<div class="app">
+<header><div class="logo">QUIZ<span>VIX</span></div><div class="stats"><div class="pill">⭐ <b id="xp">0</b></div><div class="pill">🔥 <b id="streak">0</b></div></div></header>
+
+<section id="home" class="screen active">
+<div class="hero"><h1>¿Hasta qué nivel puedes llegar?</h1><p class="sub">Elige una categoría y empieza tu reto.</p><button class="primary" onclick="daily()">🔥 Reto del día</button></div>
+<h3>Categorías</h3>
+<div class="grid">
+<button class="cat" onclick="start('general')">🧠 Cultura general<small>10 preguntas</small></button>
+<button class="cat" onclick="start('kids')">🧒 Niños<small>Fácil y divertido</small></button>
+<button class="cat" onclick="start('games')">🎮 Videojuegos<small>¿Reconoces el juego?</small></button>
+<button class="cat" onclick="start('football')">⚽ Fútbol<small>Pon a prueba tu memoria</small></button>
+<button class="cat" onclick="start('science')">🔬 Ciencia<small>Descubre cuánto sabes</small></button>
+<button class="cat" onclick="start('animals')">🐾 Animales<small>10 desafíos</small></button>
+</div>
+</section>
+
+<section id="game" class="screen">
+<button class="back" onclick="goHome()">← Categorías</button>
+<div class="levelbar"><span id="levelText">Nivel 1</span><span id="count">1/10</span></div>
+<div class="progress"><i id="bar"></i></div>
+<div class="question"><div class="qtype" id="qtype">Pregunta</div><div class="q" id="q"></div><div id="answers" class="answers"></div><div id="feedback" class="feedback"></div></div>
+</section>
+
+<section id="result" class="screen">
+<div class="result"><div>🏆</div><div class="big" id="score">0</div><h2 id="resultTitle">¡Ronda terminada!</h2><p class="muted" id="resultSub"></p><button class="primary" onclick="goHome()">Volver a jugar</button></div>
+<div class="list"><div class="row"><span>⭐ XP total</span><b id="finalXp">0</b></div><div class="row"><span>🏅 Nivel</span><b id="finalLevel">1</b></div></div>
+</section>
+</div>
+
+<script>
+const data={
+general:[
+["¿Cuál es el planeta más cercano al Sol?",["Mercurio","Venus","Marte","Júpiter"],0],
+["¿Cuántos lados tiene un hexágono?",["5","6","7","8"],1],
+["¿Cuál es el océano más grande?",["Atlántico","Índico","Pacífico","Ártico"],2],
+["¿Qué animal es conocido como el rey de la selva?",["Tigre","León","Elefante","Lobo"],1],
+["¿Cuál es la capital de Colombia?",["Cali","Medellín","Bogotá","Cartagena"],2],
+["¿Cuántos días tiene un año normal?",["360","365","366","364"],1],
+["¿Qué gas respiramos principalmente del aire?",["Oxígeno","Helio","Hidrógeno","Neón"],0],
+["¿Cuál es el continente más grande?",["Europa","África","Asia","Oceanía"],2],
+["¿Qué instrumento tiene teclas blancas y negras?",["Violín","Piano","Trompeta","Flauta"],1],
+["¿Cuántos minutos tiene una hora?",["30","45","60","90"],2]],
+kids:[
+["¿De qué color es normalmente el Sol en los dibujos?",["Amarillo","Morado","Negro","Rosado"],0],
+["¿Cuántas patas tiene un perro?",["2","4","6","8"],1],
+["¿Qué animal dice 'miau'?",["Perro","Gato","Vaca","Pato"],1],
+["¿Cuánto es 2 + 3?",["4","5","6","7"],1],
+["¿Qué usamos para ver?",["Orejas","Manos","Ojos","Pies"],2],
+["¿Cuál vive en el agua?",["Pez","Gato","Caballo","Gallina"],0],
+["¿Qué forma tiene una pelota?",["Cuadrada","Redonda","Triangular","Plana"],1],
+["¿Qué viene después del lunes?",["Domingo","Martes","Viernes","Sábado"],1],
+["¿Cuántos dedos hay en una mano?",["4","5","6","10"],1],
+["¿Qué fruta es amarilla y alargada?",["Banano","Fresa","Uva","Sandía"],0]],
+games:[
+["🎮 Imagen simulada: ⛏️🧱🌳 ¿Qué juego representa?",["Minecraft","FIFA","Tetris","Among Us"],0],
+["🎮 Imagen simulada: 🚗⚽ ¿Qué juego representa?",["Rocket League","Minecraft","Roblox","Tetris"],0],
+["🎮 Imagen simulada: 🧑‍🚀🔴🟢 ¿Qué juego representa?",["Among Us","Fortnite","FIFA","Mario Kart"],0],
+["🎮 Imagen simulada: 🧱🏝️⛏️ ¿Qué juego representa?",["Minecraft","Roblox","FIFA","Fortnite"],0],
+["🎮 Imagen simulada: ⚽🏟️ ¿Qué tipo de juego representa?",["Fútbol","Carreras","Puzzle","Simulación espacial"],0],
+["🎮 ¿Cuál es un juego de construcción y creación?",["Minecraft","Tetris","FIFA","Among Us"],0],
+["🎮 ¿Cuál es principalmente un juego de carreras?",["Mario Kart","Minecraft","FIFA","Among Us"],0],
+["🎮 ¿Cuál es un juego de bloques y rompecabezas?",["Tetris","FIFA","Fortnite","Roblox"],0],
+["🎮 ¿Cuál permite crear experiencias dentro de una plataforma?",["Roblox","Tetris","FIFA","Rocket League"],0],
+["🎮 ¿Cuál combina autos y fútbol?",["Rocket League","Minecraft","Among Us","Tetris"],0]],
+football:[
+["¿Cuántos jugadores de un equipo de fútbol están en cancha al comenzar?",["9","10","11","12"],2],
+["¿Qué tarjeta significa expulsión?",["Amarilla","Roja","Azul","Verde"],1],
+["¿Cuánto dura normalmente un partido sin tiempo añadido?",["60 min","80 min","90 min","100 min"],2],
+["¿Qué posición suele proteger la portería?",["Delantero","Portero","Mediocampista","Árbitro"],1],
+["¿Qué parte del cuerpo no puede usar normalmente un jugador de campo para tocar el balón?",["Pie","Cabeza","Mano","Pecho"],2],
+["¿Qué se cobra cuando el balón sale por la línea de banda?",["Saque de banda","Penalti","Córner","Tiro libre"],0],
+["¿Qué significa 'gol'?",["Falta","Cuando el balón entra en la portería","Saque","Tarjeta"],1],
+["¿Qué objeto usa el árbitro para señalar el final?",["Silbato","Guante","Bandera","Casco"],0],
+["¿Qué línea marca el centro del campo?",["Línea de meta","Línea central","Área pequeña","Banda"],1],
+["¿Qué competición reúne selecciones nacionales?",["Copa Mundial","Liga local","Copa del barrio","Amistoso escolar"],0]],
+science:[
+["¿Qué órgano bombea la sangre?",["Pulmón","Corazón","Hígado","Cerebro"],1],
+["¿Qué fuerza nos mantiene sobre la Tierra?",["Magnetismo","Gravedad","Electricidad","Fricción"],1],
+["¿Qué planeta es conocido como el planeta rojo?",["Venus","Marte","Saturno","Neptuno"],1],
+["¿Qué necesitan las plantas para hacer fotosíntesis?",["Luz","Metal","Plástico","Sal"],0],
+["¿En qué estado está el hielo?",["Líquido","Sólido","Gas","Plasma"],1],
+["¿Qué estrella está más cerca de la Tierra?",["Sirius","El Sol","Polaris","Vega"],1],
+["¿Qué órgano usamos principalmente para pensar?",["Corazón","Cerebro","Pulmón","Estómago"],1],
+["¿Qué gas necesitan los humanos para respirar?",["Oxígeno","Helio","Metano","Neón"],0],
+["¿Qué instrumento mide la temperatura?",["Regla","Termómetro","Brújula","Balanza"],1],
+["¿Cuál es el satélite natural de la Tierra?",["Marte","La Luna","El Sol","Venus"],1]],
+animals:[
+["¿Cuál es el animal terrestre más grande?",["Elefante africano","León","Jirafa","Oso"],0],
+["¿Qué animal tiene cuello muy largo?",["Jirafa","Tortuga","Pingüino","Zorro"],0],
+["¿Cuál es un mamífero?",["Delfín","Tiburón","Pulpo","Cocodrilo"],0],
+["¿Qué animal produce lana?",["Oveja","Águila","Serpiente","Delfín"],0],
+["¿Cuál es conocido por cambiar de color?",["Camaleón","Caballo","Elefante","Pingüino"],0],
+["¿Qué animal es un felino?",["León","Loro","Cabra","Delfín"],0],
+["¿Cuál puede volar?",["Águila","Elefante","Tigre","Ballena"],0],
+["¿Qué animal vive principalmente en el agua?",["Ballena","Caballo","Gallina","Gato"],0],
+["¿Cuál pone huevos?",["Gallina","Perro","Vaca","Gato"],0],
+["¿Qué animal tiene caparazón?",["Tortuga","Lobo","Jirafa","Mono"],0]]
+};
+let state={xp:+localStorage.qvxXp||0,streak:+localStorage.qvxStreak||0};
+let cat='general',qs=[],idx=0,correct=0,answered=false;
+const $=id=>document.getElementById(id);
+function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');}
+function save(){localStorage.qvxXp=state.xp;localStorage.qvxStreak=state.streak;$('xp').textContent=state.xp;$('streak').textContent=state.streak}
+function start(c){cat=c;qs=[...data[c]].sort(()=>Math.random()-.5);idx=0;correct=0;show('game');renderQ()}
+function daily(){start(['general','games','science','animals'][new Date().getDate()%4])}
+function renderQ(){
+ answered=false;$('feedback').textContent='';
+ const item=qs[idx], level=Math.min(10,Math.floor(idx/2)+1);
+ $('levelText').textContent='Nivel '+level;$('count').textContent=(idx+1)+'/10';$('bar').style.width=((idx)/9*100)+'%';
+ $('qtype').textContent=cat==='games'?'Desafío visual':'Pregunta';
+ $('q').textContent=item[0];$('answers').innerHTML='';
+ item[1].forEach((a,i)=>{let b=document.createElement('button');b.className='answer';b.textContent=a;b.onclick=()=>answer(i,b);$('answers').appendChild(b)})
+}
+function answer(i,btn){
+ if(answered)return;answered=true;let item=qs[idx],ok=i===item[2];
+ document.querySelectorAll('.answer').forEach((b,j)=>{if(j===item[2])b.classList.add('correct');if(j===i&&!ok)b.classList.add('wrong')});
+ if(ok){correct++;state.xp+=10;$('feedback').textContent='✅ ¡Correcto! +10 XP'}else $('feedback').textContent='❌ ¡Sigue intentando!';
+ save();setTimeout(()=>{idx++;if(idx<qs.length)renderQ();else finish()},650)
+}
+function finish(){state.streak++;save();$('score').textContent=correct+'/10';$('resultTitle').textContent=correct>=8?'🔥 ¡Excelente!':correct>=5?'👏 ¡Buen trabajo!':'💪 ¡Sigue practicando!';$('resultSub').textContent='Ganaste '+(correct*10)+' XP en esta ronda.';$('finalXp').textContent=state.xp;$('finalLevel').textContent=Math.max(1,Math.floor(state.xp/100)+1);show('result')}
+function goHome(){show('home')}
+save();
+</script>
+</body>
+</html>
