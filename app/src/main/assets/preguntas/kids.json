@@ -1,0 +1,102 @@
+[
+  [
+    "¿De qué color es normalmente el Sol en los dibujos?",
+    [
+      "Amarillo",
+      "Morado",
+      "Negro",
+      "Rosado"
+    ],
+    0
+  ],
+  [
+    "¿Cuántas patas tiene un perro?",
+    [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    1
+  ],
+  [
+    "¿Qué animal dice 'miau'?",
+    [
+      "Perro",
+      "Gato",
+      "Vaca",
+      "Pato"
+    ],
+    1
+  ],
+  [
+    "¿Cuánto es 2 + 3?",
+    [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    1
+  ],
+  [
+    "¿Qué usamos para ver?",
+    [
+      "Orejas",
+      "Manos",
+      "Ojos",
+      "Pies"
+    ],
+    2
+  ],
+  [
+    "¿Cuál vive en el agua?",
+    [
+      "Pez",
+      "Gato",
+      "Caballo",
+      "Gallina"
+    ],
+    0
+  ],
+  [
+    "¿Qué forma tiene una pelota?",
+    [
+      "Cuadrada",
+      "Redonda",
+      "Triangular",
+      "Plana"
+    ],
+    1
+  ],
+  [
+    "¿Qué viene después del lunes?",
+    [
+      "Domingo",
+      "Martes",
+      "Viernes",
+      "Sábado"
+    ],
+    1
+  ],
+  [
+    "¿Cuántos dedos hay en una mano?",
+    [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    1
+  ],
+  [
+    "¿Qué fruta es amarilla y alargada?",
+    [
+      "Banano",
+      "Fresa",
+      "Uva",
+      "Sandía"
+    ],
+    0
+  ]
+]

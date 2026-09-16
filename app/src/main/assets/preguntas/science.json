@@ -1,0 +1,102 @@
+[
+  [
+    "¿Qué órgano bombea la sangre?",
+    [
+      "Pulmón",
+      "Corazón",
+      "Hígado",
+      "Cerebro"
+    ],
+    1
+  ],
+  [
+    "¿Qué fuerza nos mantiene sobre la Tierra?",
+    [
+      "Magnetismo",
+      "Gravedad",
+      "Electricidad",
+      "Fricción"
+    ],
+    1
+  ],
+  [
+    "¿Qué planeta es conocido como el planeta rojo?",
+    [
+      "Venus",
+      "Marte",
+      "Saturno",
+      "Neptuno"
+    ],
+    1
+  ],
+  [
+    "¿Qué necesitan las plantas para hacer fotosíntesis?",
+    [
+      "Luz",
+      "Metal",
+      "Plástico",
+      "Sal"
+    ],
+    0
+  ],
+  [
+    "¿En qué estado está el hielo?",
+    [
+      "Líquido",
+      "Sólido",
+      "Gas",
+      "Plasma"
+    ],
+    1
+  ],
+  [
+    "¿Qué estrella está más cerca de la Tierra?",
+    [
+      "Sirius",
+      "El Sol",
+      "Polaris",
+      "Vega"
+    ],
+    1
+  ],
+  [
+    "¿Qué órgano usamos principalmente para pensar?",
+    [
+      "Corazón",
+      "Cerebro",
+      "Pulmón",
+      "Estómago"
+    ],
+    1
+  ],
+  [
+    "¿Qué gas necesitan los humanos para respirar?",
+    [
+      "Oxígeno",
+      "Helio",
+      "Metano",
+      "Neón"
+    ],
+    0
+  ],
+  [
+    "¿Qué instrumento mide la temperatura?",
+    [
+      "Regla",
+      "Termómetro",
+      "Brújula",
+      "Balanza"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el satélite natural de la Tierra?",
+    [
+      "Marte",
+      "La Luna",
+      "El Sol",
+      "Venus"
+    ],
+    1
+  ]
+]

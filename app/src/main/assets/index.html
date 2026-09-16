@@ -120,7 +120,7 @@ let cat='general',qs=[],idx=0,correct=0,answered=false;
 const $=id=>document.getElementById(id);
 function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');}
 function save(){localStorage.qvxXp=state.xp;localStorage.qvxStreak=state.streak;$('xp').textContent=state.xp;$('streak').textContent=state.streak}
-function start(c){cat=c;qs=[...data[c]].sort(()=>Math.random()-.5);idx=0;correct=0;show('game');renderQ()}
+function start(c){cat=c;const files={general:"cultura_general",kids:"kids",games:"games",football:"football",science:"science",animals:"animals"};const x=new XMLHttpRequest();x.open("GET","preguntas/"+files[c]+".json");x.onload=function(){if(x.status===200||x.status===0){try{qs=JSON.parse(x.responseText).sort(()=>Math.random()-.5)}catch(e){qs=[...data[c]].sort(()=>Math.random()-.5)}}else{qs=[...data[c]].sort(()=>Math.random()-.5)};idx=0;correct=0;show("game");renderQ()};x.onerror=function(){qs=[...data[c]].sort(()=>Math.random()-.5);idx=0;correct=0;show("game");renderQ()};x.send()}
 function daily(){start(['general','games','science','animals'][new Date().getDate()%4])}
 function renderQ(){
  answered=false;$('feedback').textContent='';

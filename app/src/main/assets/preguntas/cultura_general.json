@@ -1,0 +1,402 @@
+[
+  [
+    "¿Cuál es el planeta más grande del sistema solar?",
+    [
+      "Marte",
+      "Saturno",
+      "Júpiter",
+      "Neptuno"
+    ],
+    2
+  ],
+  [
+    "¿En qué año llegó el ser humano a la Luna por primera vez?",
+    [
+      "1965",
+      "1969",
+      "1972",
+      "1975"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el río más largo de Sudamérica?",
+    [
+      "Amazonas",
+      "Orinoco",
+      "Paraná",
+      "Magdalena"
+    ],
+    0
+  ],
+  [
+    "¿Qué elemento químico tiene el símbolo Au?",
+    [
+      "Plata",
+      "Hierro",
+      "Oro",
+      "Cobre"
+    ],
+    2
+  ],
+  [
+    "¿Cuál es la capital de Australia?",
+    [
+      "Sídney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    2
+  ],
+  [
+    "¿Cuántos huesos tiene aproximadamente un adulto?",
+    [
+      "106",
+      "206",
+      "306",
+      "406"
+    ],
+    1
+  ],
+  [
+    "¿Quién escribió Don Quijote de la Mancha?",
+    [
+      "Gabriel García Márquez",
+      "Miguel de Cervantes",
+      "Pablo Neruda",
+      "Jorge Luis Borges"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el océano más profundo?",
+    [
+      "Atlántico",
+      "Índico",
+      "Pacífico",
+      "Ártico"
+    ],
+    2
+  ],
+  [
+    "¿Qué órgano bombea la sangre por todo el cuerpo?",
+    [
+      "Pulmón",
+      "Hígado",
+      "Cerebro",
+      "Corazón"
+    ],
+    3
+  ],
+  [
+    "¿Cuál es el continente con mayor superficie?",
+    [
+      "África",
+      "Asia",
+      "Europa",
+      "América"
+    ],
+    1
+  ],
+  [
+    "¿Qué país tiene forma aproximada de bota?",
+    [
+      "España",
+      "Italia",
+      "Grecia",
+      "Portugal"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es la unidad básica de la vida?",
+    [
+      "Átomo",
+      "Célula",
+      "Tejido",
+      "Órgano"
+    ],
+    1
+  ],
+  [
+    "¿Qué planeta es conocido como el planeta rojo?",
+    [
+      "Venus",
+      "Marte",
+      "Mercurio",
+      "Urano"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el idioma con más hablantes nativos del mundo?",
+    [
+      "Inglés",
+      "Español",
+      "Chino mandarín",
+      "Francés"
+    ],
+    2
+  ],
+  [
+    "¿Qué instrumento se utiliza para medir la presión atmosférica?",
+    [
+      "Termómetro",
+      "Barómetro",
+      "Higrómetro",
+      "Anemómetro"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el metal más abundante en la corteza terrestre?",
+    [
+      "Hierro",
+      "Aluminio",
+      "Cobre",
+      "Oro"
+    ],
+    1
+  ],
+  [
+    "¿Qué científico formuló las leyes del movimiento y la gravitación universal?",
+    [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es la capital de Japón?",
+    [
+      "Kioto",
+      "Osaka",
+      "Tokio",
+      "Hiroshima"
+    ],
+    2
+  ],
+  [
+    "¿Qué gas es más abundante en la atmósfera terrestre?",
+    [
+      "Oxígeno",
+      "Nitrógeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    1
+  ],
+  [
+    "¿Cuántos lados tiene un dodecágono?",
+    [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    2
+  ],
+  [
+    "¿Qué civilización construyó Machu Picchu?",
+    [
+      "Maya",
+      "Azteca",
+      "Inca",
+      "Romana"
+    ],
+    2
+  ],
+  [
+    "¿Cuál es la montaña más alta sobre el nivel del mar?",
+    [
+      "K2",
+      "Everest",
+      "Aconcagua",
+      "Mont Blanc"
+    ],
+    1
+  ],
+  [
+    "¿Qué país regaló la Estatua de la Libertad a Estados Unidos?",
+    [
+      "Reino Unido",
+      "Francia",
+      "España",
+      "Italia"
+    ],
+    1
+  ],
+  [
+    "¿Qué científico desarrolló la teoría de la relatividad?",
+    [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Stephen Hawking",
+      "Marie Curie"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el desierto cálido más grande del mundo?",
+    [
+      "Gobi",
+      "Sahara",
+      "Atacama",
+      "Kalahari"
+    ],
+    1
+  ],
+  [
+    "¿Qué vitamina produce principalmente el cuerpo al exponerse al Sol?",
+    [
+      "Vitamina A",
+      "Vitamina B12",
+      "Vitamina C",
+      "Vitamina D"
+    ],
+    3
+  ],
+  [
+    "¿Cuál es el número primo más pequeño?",
+    [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    2
+  ],
+  [
+    "¿Qué país posee la mayor cantidad de islas del mundo?",
+    [
+      "Indonesia",
+      "Suecia",
+      "Japón",
+      "Filipinas"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es la capital de Canadá?",
+    [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    3
+  ],
+  [
+    "¿Qué parte de la célula contiene la mayor parte del material genético?",
+    [
+      "Ribosoma",
+      "Núcleo",
+      "Membrana",
+      "Citoplasma"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el único mamífero capaz de volar de forma sostenida?",
+    [
+      "Ardilla voladora",
+      "Murciélago",
+      "Pingüino",
+      "Avestruz"
+    ],
+    1
+  ],
+  [
+    "¿Qué planeta tiene los anillos más visibles y famosos?",
+    [
+      "Júpiter",
+      "Saturno",
+      "Urano",
+      "Neptuno"
+    ],
+    1
+  ],
+  [
+    "¿Cuál fue la antigua ciudad sepultada por la erupción del Vesubio en el año 79?",
+    [
+      "Atenas",
+      "Pompeya",
+      "Esparta",
+      "Cartago"
+    ],
+    1
+  ],
+  [
+    "¿Qué filósofo fue maestro de Alejandro Magno?",
+    [
+      "Sócrates",
+      "Platón",
+      "Aristóteles",
+      "Pitágoras"
+    ],
+    2
+  ],
+  [
+    "¿Cuál es la moneda oficial de Japón?",
+    [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Rupia"
+    ],
+    2
+  ],
+  [
+    "¿Qué país tiene como capital a Reikiavik?",
+    [
+      "Noruega",
+      "Islandia",
+      "Finlandia",
+      "Dinamarca"
+    ],
+    1
+  ],
+  [
+    "¿Qué fenómeno explica que la Luna parezca cambiar de forma durante el mes?",
+    [
+      "Rotación solar",
+      "Fases lunares",
+      "Eclipses permanentes",
+      "Gravedad terrestre"
+    ],
+    1
+  ],
+  [
+    "¿Cuál es el número atómico del carbono?",
+    [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    1
+  ],
+  [
+    "¿Qué océano separa principalmente América de Europa y África?",
+    [
+      "Pacífico",
+      "Atlántico",
+      "Índico",
+      "Antártico"
+    ],
+    1
+  ],
+  [
+    "¿Cuál de estos países no pertenece a Sudamérica?",
+    [
+      "Chile",
+      "Ecuador",
+      "México",
+      "Perú"
+    ],
+    2
+  ]
+]

@@ -1,0 +1,102 @@
+[
+  [
+    "¿Cuántos jugadores de un equipo de fútbol están en cancha al comenzar?",
+    [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    2
+  ],
+  [
+    "¿Qué tarjeta significa expulsión?",
+    [
+      "Amarilla",
+      "Roja",
+      "Azul",
+      "Verde"
+    ],
+    1
+  ],
+  [
+    "¿Cuánto dura normalmente un partido sin tiempo añadido?",
+    [
+      "60 min",
+      "80 min",
+      "90 min",
+      "100 min"
+    ],
+    2
+  ],
+  [
+    "¿Qué posición suele proteger la portería?",
+    [
+      "Delantero",
+      "Portero",
+      "Mediocampista",
+      "Árbitro"
+    ],
+    1
+  ],
+  [
+    "¿Qué parte del cuerpo no puede usar normalmente un jugador de campo para tocar el balón?",
+    [
+      "Pie",
+      "Cabeza",
+      "Mano",
+      "Pecho"
+    ],
+    2
+  ],
+  [
+    "¿Qué se cobra cuando el balón sale por la línea de banda?",
+    [
+      "Saque de banda",
+      "Penalti",
+      "Córner",
+      "Tiro libre"
+    ],
+    0
+  ],
+  [
+    "¿Qué significa 'gol'?",
+    [
+      "Falta",
+      "Cuando el balón entra en la portería",
+      "Saque",
+      "Tarjeta"
+    ],
+    1
+  ],
+  [
+    "¿Qué objeto usa el árbitro para señalar el final?",
+    [
+      "Silbato",
+      "Guante",
+      "Bandera",
+      "Casco"
+    ],
+    0
+  ],
+  [
+    "¿Qué línea marca el centro del campo?",
+    [
+      "Línea de meta",
+      "Línea central",
+      "Área pequeña",
+      "Banda"
+    ],
+    1
+  ],
+  [
+    "¿Qué competición reúne selecciones nacionales?",
+    [
+      "Copa Mundial",
+      "Liga local",
+      "Copa del barrio",
+      "Amistoso escolar"
+    ],
+    0
+  ]
+]
